@@ -33,7 +33,7 @@ namespace Microsoft.PowerApps.TestAutomation.Tests
             FireEvents = false,
             Headless = false,
             UserAgent = false,
-            DriversPath = Path.IsPathRooted(DriversPath) ? DriversPath : Path.Combine(Directory.GetCurrentDirectory(), DriversPath)
+            //DriversPath = Path.IsPathRooted(DriversPath) ? DriversPath : Path.Combine(Directory.GetCurrentDirectory(), DriversPath)
 
         };
     }
